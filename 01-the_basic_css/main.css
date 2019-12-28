@@ -1,0 +1,22 @@
+body{
+	font-family: serif;
+}
+h1{
+	color: violet;
+	font-family: "Comic Sans MS",sans-serif;
+}
+code{
+	font-family: monospace;
+	color: red;
+}
+.second code{
+	color: green;
+}
+li+li{
+	background-color: #000;
+	color: #fff;
+}
+ol.list>li{
+	background-color: #000;
+	color: #fff;
+}
