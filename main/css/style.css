@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+}
+
+
+/*  在body中设置属性比body高 */
+
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+
+#product-overview {
+    background-color: #ff1b68;
+}
+
+.section-title {
+    color: #2ddf5c
+}
+
+#product-overview h1 {
+    color: #fff;
+    font-family: 'Coda Caption', sans-serif;
+}
