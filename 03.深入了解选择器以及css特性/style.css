@@ -1,0 +1,25 @@
+html,body{
+    height: 100%;
+}
+nav{
+    background-color: #fa923f;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+nav>a{
+    text-decoration: none;
+    padding:0 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+nav>a.active{
+    color: rgb(133, 65, 228);
+}
+
+section{
+    height: 100%;
+    border: 2px solid #fa923f;
+    padding: 20px;
+}
