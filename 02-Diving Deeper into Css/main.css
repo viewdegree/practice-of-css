@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+}
+.test1,.test2,.test3,.test5{
+    width: 100px;
+    height: 100px;
+}
+#test1{
+    height: 100%;
+    padding: 1px 2px 3px 4px;
+    margin: 1px 2px 3px 4px;
+    border: 5px solid #000;
+}
+.test2,.test3{
+    display: inline-block;
+    background-color: #000;
+}
+.test4{
+    width: 50%;
+    height: 300px;
+    background-color: yellowgreen;
+}
+.test5{
+    display:none;
+    /* display:block; */
+    visibility: hidden;
+}
+.test>div:nth-last-child(1):hover{
+    background-color: green;
+}

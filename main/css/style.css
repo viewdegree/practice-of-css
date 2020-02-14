@@ -1,16 +1,19 @@
 * {
-    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 
 /*  在body中设置属性比body高 */
 
 body {
-    font-family: 'Courier New', Courier, monospace
+    font-family: Courier, monospace;
+    margin: 0;
 }
 
 #product-overview {
-    background-color: #ff1b68;
+    background: url("../images/freedom.jpg");
+    height: 528px;
+    padding: 10px;
 }
 
 .section-title {
@@ -21,3 +24,70 @@ body {
     color: #fff;
     font-family: 'Coda Caption', sans-serif;
 }
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 91px); /*必须有空格*/
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    /* 重置外边距与内边距 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+.main-nav__item > a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+/*伪类 
+.main-nav__item > a:after{
+    content: " (Link)";
+    color: #f00;
+} */
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.main-nav__item--cta a{
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:active,
+.main-nav__item--cta a:hover{
+    color: #ff1b68;
+    background-color: #fff;
+    border: none;
+} 
