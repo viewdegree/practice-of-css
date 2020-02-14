@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-02-14 07:54:07
- * @LastEditTime : 2020-02-14 09:29:54
+ * @LastEditTime : 2020-02-14 13:19:13
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \css\practice-of-css\main\index.html
@@ -19,13 +19,26 @@
 </head>
 
 <body>
-    <section id="product-overview">
-        <h1>Get the freedom you deserve</h1>
-    </section>
-    <section id="plans">
-        <h1 class="section-title">Choose Your Plan</h1>
-        <p>Make sure you get the most for your money</p>
-    </section>
+    <header class="main-header">
+      <!-- 因为多余的空格会转换为多余的文字inline元素,我们再计算的时候就会出现错误的情况 -->
+        <div><a href="index.html" class="main-header__brand">uHost</a></div><nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="packages/index.html">Packages</a></li>
+                <li class="main-nav__item">
+                    <a href="customers/index.html">Customers</a></li>
+                <li class="main-nav__item main-nav__item--cta"><a href="start-hosting/index.html">Start Hosting</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="product-overview">
+            <h1>Get the freedom you deserve</h1>
+        </section>
+        <section id="plans">
+            <h1 class="section-title">Choose Your Plan</h1>
+            <p>Make sure you get the most for your money</p>
+        </section>
+    </main>
 </body>
 
 </html>
