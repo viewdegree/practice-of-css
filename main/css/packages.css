@@ -1,0 +1,40 @@
+main{
+    padding-top: 20px;
+}
+.package{
+    width: 60%;
+    border: 3px solid #0e4f1f;
+    padding: 30px; 
+}
+.package+.package{
+    margin-top: 20px;
+}
+.package>a{
+    text-decoration: none;
+    color: #000;
+}
+.section-subtitle{
+    color: #666;
+}
+#package-of-plus{
+    background-color: #58f683;
+}
+#package-of-free{
+    background-color: #a6f3ba;
+}
+#package-of-premium{
+    background-color: #0e4f1f;
+}
+#package-of-premium .section-title{
+    color: #fff;
+}
+.package__annotation{
+    background-color: #fff;
+    border: 1px solid #0e4f1f;
+    padding: 10px;
+    width: 90%;
+    color: #0e4f1f;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+}
