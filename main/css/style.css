@@ -1,26 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-
-/*  在body中设置属性比body高 */
-
-body {
-    /* font-family: Courier, monospace; */
-    margin: 0;
-}
-
-#product-overview{
-    background: url("../images/freedom.jpg");
-    height: 528px;
-    padding: 10px;
-}
-
-.section-title {
-    color: #2ddf5c;
-    text-align: center;
-}
-
 #product-overview h1 {
     color: #fff;
     font-family: 'Coda Caption', sans-serif;
@@ -71,6 +48,66 @@ body {
     color: #fff;
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
+#key-features{
+    background-color: #ff1b68;;
+    margin-top: 80px;
+    padding: 16px;
+}
+#key-features>.section-title{
+    color: #fff;
+    margin: 32px;
+}
+.key-feature__list{
+    list-style: none;
+    margin: 0;  /*ul有默认的边距*/
+    padding: 0;
+    text-align: center;
+}
+.key-feature{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    width: 30%; /*如果不设置宽,当屏幕小的时候li会被自动的挤下去*/
+    vertical-align: top;    /*当页面缩小的时候,文字会换行,这时文字不默认底部对齐,造成下移,所以必须去设置垂直布局*/
+}
+#key-features__description{
+    text-align: center;
+}
+.key-feature__image{
+    width: 128px;
+    height: 128px;
+    background-color: #ffcede;
+    border: 2px solid #424242;
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*  在body中设置属性比body高 */
+
+body {
+    /* font-family: Courier, monospace; */
+    margin: 0;
+}
+
+#product-overview{
+    background: url("../images/freedom.jpg");
+    height: 528px;
+    padding: 10px;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+
 .button{
     background-color: #0e4f1f;
     color: #fff;
@@ -152,39 +189,7 @@ body {
     background-color: #fff;
     border: none;
 }
-#key-features{
-    background-color: #ff1b68;;
-    margin-top: 80px;
-    padding: 16px;
-}
-#key-features>.section-title{
-    color: #fff;
-    margin: 32px;
-}
-.key-feature__list{
-    list-style: none;
-    margin: 0;  /*ul有默认的边距*/
-    padding: 0;
-    text-align: center;
-}
-.key-feature{
-    display: inline-block;
-    color: #fff;
-    padding: 10px;
-    width: 30%; /*如果不设置宽,当屏幕小的时候li会被自动的挤下去*/
-    vertical-align: top;    /*当页面缩小的时候,文字会换行,这时文字不默认底部对齐,造成下移,所以必须去设置垂直布局*/
-}
-#key-features__description{
-    text-align: center;
-}
-.key-feature__image{
-    width: 128px;
-    height: 128px;
-    background-color: #ffcede;
-    border: 2px solid #424242;
-    border-radius: 50%; 
-    margin: 0 auto;
-}
+
 .main-footer{
     background-color: black;
     padding: 32px;  /*这里的尺寸基本上是浏览器设置的默认尺寸*/
