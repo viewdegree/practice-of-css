@@ -152,3 +152,36 @@ body {
     background-color: #fff;
     border: none;
 }
+#key-features{
+    background-color: #ff1b68;;
+    margin-top: 80px;
+    padding: 16px;
+}
+#key-features>.section-title{
+    color: #fff;
+    margin: 32px;
+}
+.key-feature__list{
+    list-style: none;
+    margin: 0;  /*ul有默认的边距*/
+    padding: 0;
+    text-align: center;
+}
+.key-feature{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    width: 30%; /*如果不设置宽,当屏幕小的时候li会被自动的挤下去*/
+    vertical-align: top;    /*当页面缩小的时候,文字会换行,这时文字不默认底部对齐,造成下移,所以必须去设置垂直布局*/
+}
+#key-features__description{
+    text-align: center;
+}
+.key-feature__image{
+    width: 128px;
+    height: 128px;
+    background-color: #ffcede;
+    border: 2px solid #424242;
+    border-radius: 50%; 
+    margin: 0 auto;
+}
