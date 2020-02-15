@@ -25,6 +25,11 @@
     vertical-align: middle;
     border-radius: 5px;
 }
+.plan__list{
+    width: 80%;
+    margin: auto;   /*盒子本体居中*/
+    text-align: center; /*盒子内部元素居中*/
+}
 .plan__annotation{
     color: #19b84c;
     background-color: #fff;

@@ -28,9 +28,18 @@ main{
     background-color: #58f683;
 }
 #package-of-free{
+    float: right;
     background-color: #a6f3ba;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+}
+#package-of-free:hover,
+#package-of-free:active{
+    border-left-color: #ff5454;
+    box-shadow: -2px 2px 4px rgba(0,0,0,0.5);
 }
 #package-of-premium{
+    clear: both;    /*清除浮动*/
     background-color: #0e4f1f;
 }
 #package-of-premium .section-title{
