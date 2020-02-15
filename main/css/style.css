@@ -1,3 +1,16 @@
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+
+#product-overview{
+    background: url("../images/freedom.jpg");
+    height: 528px;
+    padding: 10px;
+}
+
 #product-overview h1 {
     color: #fff;
     font-family: 'Coda Caption', sans-serif;
@@ -80,136 +93,4 @@
     border: 2px solid #424242;
     border-radius: 50%; 
     margin: 0 auto;
-}
-
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-/*  在body中设置属性比body高 */
-
-body {
-    /* font-family: Courier, monospace; */
-    margin: 0;
-}
-
-#product-overview{
-    background: url("../images/freedom.jpg");
-    height: 528px;
-    padding: 10px;
-}
-
-.section-title {
-    color: #2ddf5c;
-    text-align: center;
-}
-
-
-.button{
-    background-color: #0e4f1f;
-    color: #fff;
-    font: inherit;  
-    border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.button:hover,
-.button:active{
-    background-color: #fff;
-    color: #0e4f1f;
-}
-.button:focus{
-    outline: none;
-}
-.main-header {
-    width: 100%;
-    background-color: #2ddf5c;
-    padding: 8px 16px;
-}
-
-.main-header>div {
-    display: inline-block;
-    vertical-align: middle;
-}
-.main-header__brand {
-    color: #0e4f1f;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 30px;
-}
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 100px); /*必须有空格*/
-    vertical-align: middle;
-}
-
-.main-nav__items {
-    /* 重置外边距与内边距 */
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.main-nav__item {
-    display: inline-block;
-    margin: 0 10px;
-}
-.main-nav__item > a{
-    text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
-    padding: 3px 0;
-}
-/*伪类 
-.main-nav__item > a:after{
-    content: " (Link)";
-    color: #f00;
-} */
-.main-nav__item a:hover,
-.main-nav__item a:active{
-    color: #fff;
-    border-bottom: 5px solid #fff;
-}
-.main-nav__item--cta a{
-    font-weight: 600;
-    color: #fff;
-    background-color: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-.main-nav__item--cta a:active,
-.main-nav__item--cta a:hover{
-    color: #ff1b68;
-    background-color: #fff;
-    border: none;
-}
-
-.main-footer{
-    background-color: black;
-    padding: 32px;  /*这里的尺寸基本上是浏览器设置的默认尺寸*/
-    margin-top: 48px;
-}
-.main-footer__links{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.main-footer__link{
-    display: inline-block;
-    margin: 0 16px;
-}
-.main-footer__link>a{
-    text-decoration: none;
-    color: #fff;
-}
-.main-footer__link>a:hover,
-.main-footer__link>a:active{
-    color: #ccc;
 }
