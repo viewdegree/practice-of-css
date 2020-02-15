@@ -1,0 +1,57 @@
+main{
+    margin-top: 20px;
+}
+.package{
+    width: 80%;
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+}
+.package+.package{
+    margin-top: 20px;
+}
+.package:hover,
+.package:active{
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
+}
+.package>a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+.section-subtitle{
+    color: #979797;
+}
+#package-of-plus{
+    background-color: #58f683;
+}
+#package-of-free{
+    float: right;
+    background-color: #a6f3ba;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+}
+#package-of-free:hover,
+#package-of-free:active{
+    border-left-color: #ff5454;
+    box-shadow: -2px 2px 4px rgba(0,0,0,0.5);
+}
+#package-of-premium{
+    clear: both;    /*清除浮动*/
+    background-color: #0e4f1f;
+}
+#package-of-premium .section-title{
+    color: #fff;
+}
+.package__annotation{
+    background-color: #fff;
+    border: 1px solid #0e4f1f;
+    padding: 10px;
+    width: 90%;
+    color: #0e4f1f;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+}
